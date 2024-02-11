@@ -1,0 +1,99 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  font-family: 'Inter', sans-serif;
+  background: #eeeeee;
+}
+
+.header {
+  height: 100vh;
+  background-image: url(images/header.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+
+/* add a CSS rule for the page title here */
+
+.top-head {
+  font-family: "Permanent Marker", cursive;
+  font-size: 140px;
+  line-height: 140px;
+  color: white;
+  text-transform: uppercase;
+  max-width: 1240px;
+  margin: auto;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* add missing declarations */
+  max-width: 790px;
+  margin: 100px auto 50px;
+}
+
+/* add CSS rules for cards and their content here */
+
+.card {
+  width: 350px;
+  margin-bottom: 60px;
+  padding: 45px 45px 70px; 
+  background: #ffffff;
+  box-shadow: 4px 4px 5px rgba(0, 132, 255, 0.4);
+}
+
+.card-head {
+  font-family: "Permanent Marker", cursive;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-body {
+  font-size: 16px;
+}
+
+.card__image {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.footer {
+  display: flex;
+  min-height: 300px;
+  background-color: #000000;
+}  
+  /* add missing declarations */
+
+
+/* add a CSS rule for the footer signature */
+
+.footer-text {
+  color: white;
+  margin: auto;
+}
+
+.favicons-footer {
+  margin: auto;
+}
